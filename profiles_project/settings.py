@@ -25,6 +25,8 @@ SECRET_KEY = 'j8phkt6*2i#d$c(+n74)w5uz*@-lvznatr_5a!wrl%eo+@3+=n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
+#TODO get the url of application in aws (for instance) and paste here, with format
+#url , 127.0.0.1
 ALLOWED_HOSTS = []
 
 
